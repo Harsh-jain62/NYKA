@@ -1,0 +1,122 @@
+.footerContainer{
+    font-family: 'Roboto', sans-serif;
+}
+.quickLinkFooter{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 350px;
+    background: #8c8d94;
+    box-sizing: border-box;
+}
+.quickLinks{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+.quickLinks span{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.quickLinks a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    padding: 8px 0;
+    transition: all .5s ease;
+}
+.quickLinks a:hover{
+    color: #fc2779;
+}
+.socialFooter{
+    width: 100%;
+    height: 130px;
+    background: #f3f3f3;
+    color: #444;
+    display: flex;
+    justify-content: center;
+}
+.socialContent{
+    padding: 40px 30px;
+    display: flex;
+}
+.socialContent .icon{
+    padding: 15px;
+    margin: 0 5px;
+    font-size: 20px;
+    color: #fff;
+    background: #fc2779;
+    border-radius: 50px;
+}
+.socialContent h3{
+    margin: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    font-weight: 700;
+}
+.socialContent hr{
+    border: 1px solid #ddd;
+}
+.socialContent p{
+    margin: 0;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.block{
+    padding: 40px; 
+}
+.block h4{
+    margin: 0;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+}
+.socialLinks{
+    padding: 10px 0;
+}
+.socialLinks a{
+    padding-right: 15px; 
+    font-size: 25px;
+    text-decoration: none;
+    color: #444;
+    transition: all .3s ease;
+}
+.socialLinks a:hover{
+    color: #666;
+}
+.policyFooter{
+    width: 100%;
+    height: 80px;
+    background: #fc2779;
+}
+.policy{
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+.policy a{
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 500;
+    padding: 0 15px;
+}
+.policyFooter p{
+    text-align: center;
+    letter-spacing: .5px;
+    margin: 5px 0;
+    color: #fff;
+    font-weight: 400;
+    font-size: 12px;
+}
